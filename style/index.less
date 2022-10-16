@@ -1,0 +1,286 @@
+@import "setting";
+
+body {
+  font-family: @font-family;
+}
+
+main {
+  section.home {
+    background-image: url("../images/home/Group 34.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+    nav {
+      margin-left: 22rem;
+      padding-top: 1rem;
+    }
+
+    .item-nav {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      text-decoration: none;
+      line-height: 27px;
+      color: @black;
+    }
+
+    .item-nav.active {
+      font-style: normal;
+      font-weight: 900;
+      color: @green;
+    }
+
+    .item-nav:hover {
+      font-style: normal;
+      font-weight: 900;
+      color: @green;
+    }
+
+    .icon {
+      padding-left: 47rem;
+      padding-top: 16rem;
+    }
+
+    .title {
+      margin-left: 22rem;
+      height: 12rem;
+
+      h1.green {
+        font-size: 230px;
+        font-weight: bold;
+        color: @green;
+      }
+
+      h1.black {
+        font-size: 230px;
+        font-weight: bold;
+        color: @black;
+      }
+    }
+
+    .subtitle {
+      padding-left: 22rem;
+
+      .subtitle-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        color: #000000;
+      }
+
+      h1 {
+        font-size: 230px;
+        font-weight: bold;
+        color: @black;
+        line-height: 11rem;
+        padding-left: 41rem;
+      }
+    }
+
+    .btn-home {
+      padding-left: 22rem;
+    }
+  }
+
+  section.about {
+    h1 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 70px;
+      display: flex;
+      align-items: center;
+      color: @black;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-left: 58rem;
+    }
+
+    .about-item {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 30px;
+      color: @black;
+    }
+
+    .btn-about {
+      margin: 0 auto;
+      padding: 4rem;
+    }
+  }
+
+  section.preference {
+    h1 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 70px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-left: 58rem;
+    }
+
+    .card-pref {
+      width: 35rem;
+      padding: 1rem;
+      background-size: cover;
+      background-position: center center;
+      margin: 0 auto 1rem;
+
+      h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        color: @black;
+        padding-bottom: 5rem;
+      }
+
+      p.text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        color: @black;
+        min-height: 135px;
+        display: flex;
+        align-items: self-end;
+      }
+    }
+
+    .card-pref.red {
+      background-image: url("../images/preference/red.jpg");
+    }
+
+    .card-pref.green {
+      background-image: url("../images/preference/green.jpg");
+    }
+
+    .card-pref.orange {
+      background-image: url("../images/preference/orange.jpg");
+    }
+
+    .card-pref.yellow {
+      background-image: url("../images/preference/yellow.jpg");
+    }
+
+    .card-pref.brown {
+      background-image: url("../images/preference/brown.jpg");
+    }
+
+    .card-pref.violet {
+      background-image: url("../images/preference/violet.jpg");
+    }
+  }
+
+  .btn-preference {
+    margin: 0 auto;
+    padding: 4rem;
+  }
+}
+
+section.contact {
+  .input-form-text {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    color: black;
+    height: 2rem;
+  }
+
+  .input-form-textarea {
+    margin-bottom: 1rem;
+    color: black;
+  }
+
+  .input-form-btn {
+    background: @black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: @white;
+  }
+}
+
+section.about-page {
+  h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 58rem;
+  }
+
+  nav {
+    margin-left: 22rem;
+    padding-top: 1rem;
+  }
+
+  .item-nav {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 27px;
+    color: @black;
+  }
+
+  .item-nav.active {
+    font-style: normal;
+    font-weight: 900;
+    color: @green;
+  }
+
+  .item-nav:hover {
+    font-style: normal;
+    font-weight: 900;
+    color: @green;
+  }
+
+  .btn-about-page {
+    margin: 0 auto;
+    padding: 4rem;
+  }
+
+  .about-img-right {
+    width: 35rem;
+  }
+
+  .about-img-left {
+    width: 35rem;
+  }
+}
+
+footer {
+  background: @footer;
+  color: @white
+}
+
+.main-btn-green {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  display: block;
+  align-items: center;
+  color: @green;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  width: max-content;
+
+  .btn-img {
+    width: 35px;
+    margin-left: 10px;
+  }
+}
+
+.main-btn-green:hover {
+  color: @green - 50;
+}
+

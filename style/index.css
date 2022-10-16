@@ -1,0 +1,232 @@
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+main section.home {
+  background-image: url("../images/home/Group 34.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+main section.home nav {
+  margin-left: 22rem;
+  padding-top: 1rem;
+}
+main section.home .item-nav {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 27px;
+  color: #000000;
+}
+main section.home .item-nav.active {
+  font-style: normal;
+  font-weight: 900;
+  color: #11C10E;
+}
+main section.home .item-nav:hover {
+  font-style: normal;
+  font-weight: 900;
+  color: #11C10E;
+}
+main section.home .icon {
+  padding-left: 47rem;
+  padding-top: 16rem;
+}
+main section.home .title {
+  margin-left: 22rem;
+  height: 12rem;
+}
+main section.home .title h1.green {
+  font-size: 230px;
+  font-weight: bold;
+  color: #11C10E;
+}
+main section.home .title h1.black {
+  font-size: 230px;
+  font-weight: bold;
+  color: #000000;
+}
+main section.home .subtitle {
+  padding-left: 22rem;
+}
+main section.home .subtitle .subtitle-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+main section.home .subtitle h1 {
+  font-size: 230px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 11rem;
+  padding-left: 41rem;
+}
+main section.home .btn-home {
+  padding-left: 22rem;
+}
+main section.about h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 58rem;
+}
+main section.about .about-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  color: #000000;
+}
+main section.about .btn-about {
+  margin: 0 auto;
+  padding: 4rem;
+}
+main section.preference h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 58rem;
+}
+main section.preference .card-pref {
+  width: 35rem;
+  padding: 1rem;
+  background-size: cover;
+  background-position: center center;
+  margin: 0 auto 1rem;
+}
+main section.preference .card-pref h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #000000;
+  padding-bottom: 5rem;
+}
+main section.preference .card-pref p.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #000000;
+  min-height: 135px;
+  display: flex;
+  align-items: self-end;
+}
+main section.preference .card-pref.red {
+  background-image: url("../images/preference/red.jpg");
+}
+main section.preference .card-pref.green {
+  background-image: url("../images/preference/green.jpg");
+}
+main section.preference .card-pref.orange {
+  background-image: url("../images/preference/orange.jpg");
+}
+main section.preference .card-pref.yellow {
+  background-image: url("../images/preference/yellow.jpg");
+}
+main section.preference .card-pref.brown {
+  background-image: url("../images/preference/brown.jpg");
+}
+main section.preference .card-pref.violet {
+  background-image: url("../images/preference/violet.jpg");
+}
+main .btn-preference {
+  margin: 0 auto;
+  padding: 4rem;
+}
+section.contact .input-form-text {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+  color: black;
+  height: 2rem;
+}
+section.contact .input-form-textarea {
+  margin-bottom: 1rem;
+  color: black;
+}
+section.contact .input-form-btn {
+  background: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+section.about-page h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 58rem;
+}
+section.about-page nav {
+  margin-left: 22rem;
+  padding-top: 1rem;
+}
+section.about-page .item-nav {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 27px;
+  color: #000000;
+}
+section.about-page .item-nav.active {
+  font-style: normal;
+  font-weight: 900;
+  color: #11C10E;
+}
+section.about-page .item-nav:hover {
+  font-style: normal;
+  font-weight: 900;
+  color: #11C10E;
+}
+section.about-page .btn-about-page {
+  margin: 0 auto;
+  padding: 4rem;
+}
+section.about-page .about-img-right {
+  width: 35rem;
+}
+section.about-page .about-img-left {
+  width: 35rem;
+}
+footer {
+  background: #1C1C1C;
+  color: #FFFFFF;
+}
+.main-btn-green {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  display: block;
+  align-items: center;
+  color: #11C10E;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  width: max-content;
+}
+.main-btn-green .btn-img {
+  width: 35px;
+  margin-left: 10px;
+}
+.main-btn-green:hover {
+  color: #008f00;
+}
+/*# sourceMappingURL=index.css.map */
