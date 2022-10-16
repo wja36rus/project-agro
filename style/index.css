@@ -53,14 +53,14 @@ main section.home .subtitle {
 main section.home .subtitle .subtitle-text {
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   color: #000000;
 }
 main section.home .subtitle h1 {
   font-size: 230px;
   font-weight: bold;
   color: #000000;
-  line-height: 11rem;
+  line-height: 10rem;
   padding-left: 41rem;
 }
 main section.home .btn-home {
