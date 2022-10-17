@@ -1,17 +1,11 @@
 body {
   font-family: 'Montserrat Alternates', sans-serif;
 }
-main section.home {
-  background-image: url("../images/home/Group 34.jpg");
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
-}
-main section.home nav {
-  margin-left: 22rem;
+main nav {
+  margin-left: 18.8vw;
   padding-top: 1rem;
 }
-main section.home .item-nav {
+main nav .item-nav {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -19,15 +13,21 @@ main section.home .item-nav {
   line-height: 27px;
   color: #000000;
 }
-main section.home .item-nav.active {
+main nav .item-nav.active {
   font-style: normal;
   font-weight: 900;
   color: #11C10E;
 }
-main section.home .item-nav:hover {
+main nav .item-nav:hover {
   font-style: normal;
   font-weight: 900;
   color: #11C10E;
+}
+main section.home {
+  background-image: url("../images/home/Group 34.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
 }
 main section.home .icon {
   padding-left: 47rem;
@@ -174,28 +174,6 @@ section.about-page h1 {
   padding-bottom: 2rem;
   padding-left: 58rem;
 }
-section.about-page nav {
-  margin-left: 22rem;
-  padding-top: 1rem;
-}
-section.about-page .item-nav {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  text-decoration: none;
-  line-height: 27px;
-  color: #000000;
-}
-section.about-page .item-nav.active {
-  font-style: normal;
-  font-weight: 900;
-  color: #11C10E;
-}
-section.about-page .item-nav:hover {
-  font-style: normal;
-  font-weight: 900;
-  color: #11C10E;
-}
 section.about-page .btn-about-page {
   margin: 0 auto;
   padding: 4rem;
@@ -205,6 +183,119 @@ section.about-page .about-img-right {
 }
 section.about-page .about-img-left {
   width: 35rem;
+}
+section.howuse-page h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 58rem;
+}
+section.howuse-page .card-use {
+  height: 2rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+section.howuse-page .card-use .btn-howuse-page {
+  background: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  height: 45px;
+  color: #FFFFFF;
+}
+section.howuse-page .card-use .howuse-input {
+  border: 1px solid #000000;
+  height: 45px;
+  width: 20rem;
+}
+section.howuse-page .card-use .use-icon {
+  width: 2rem;
+  margin-left: 1rem;
+}
+section.howuse-page .card-use .use-icon.active {
+  width: 2rem;
+  margin-left: 1rem;
+  transform: rotate(180deg);
+}
+.card-use.active {
+  background-image: url("../images/use/back.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 2rem 2rem 12rem;
+  height: auto !important;
+}
+section.product-page h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 58rem;
+}
+section.product-page h5 {
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+}
+section.product-page .product-btn {
+  background: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+section.product-page .card-product {
+  width: 20rem;
+  padding: 1rem;
+}
+section.product-page .product-title {
+  height: 5.5rem;
+  overflow: hidden;
+  position: relative;
+  font-size: 14px;
+}
+section.product-page .product-title::after {
+  content: "...Читать дальше";
+  position: absolute;
+  top: 65px;
+  width: 50%;
+  background: #FFFFFF;
+  text-align: end;
+  left: 9rem;
+  font-size: 13px;
+  height: 3rem;
+}
+section.product-page .product-title:hover::after {
+  cursor: pointer;
+  font-weight: bold;
+}
+section.products-page h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 58rem;
+}
+section.products-page .products-btn {
+  background: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #FFFFFF;
 }
 footer {
   background: #1C1C1C;
@@ -228,5 +319,24 @@ footer {
 }
 .main-btn-green:hover {
   color: #008f00;
+}
+section.contact-page .input-form-text {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+  color: black;
+  height: 2rem;
+}
+section.contact-page .input-form-textarea {
+  margin-bottom: 1rem;
+  color: black;
+}
+section.contact-page .input-form-btn {
+  background: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=index.css.map */

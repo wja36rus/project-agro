@@ -5,16 +5,9 @@ body {
 }
 
 main {
-  section.home {
-    background-image: url("../images/home/Group 34.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-
-    nav {
-      margin-left: 22rem;
-      padding-top: 1rem;
-    }
+  nav {
+    margin-left: 18.8vw;
+    padding-top: 1rem;
 
     .item-nav {
       font-style: normal;
@@ -36,6 +29,13 @@ main {
       font-weight: 900;
       color: @green;
     }
+  }
+
+  section.home {
+    background-image: url("../images/home/Group 34.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
 
     .icon {
       padding-left: 47rem;
@@ -217,32 +217,6 @@ section.about-page {
     padding-left: 58rem;
   }
 
-  nav {
-    margin-left: 22rem;
-    padding-top: 1rem;
-  }
-
-  .item-nav {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    text-decoration: none;
-    line-height: 27px;
-    color: @black;
-  }
-
-  .item-nav.active {
-    font-style: normal;
-    font-weight: 900;
-    color: @green;
-  }
-
-  .item-nav:hover {
-    font-style: normal;
-    font-weight: 900;
-    color: @green;
-  }
-
   .btn-about-page {
     margin: 0 auto;
     padding: 4rem;
@@ -254,6 +228,143 @@ section.about-page {
 
   .about-img-left {
     width: 35rem;
+  }
+}
+
+section.howuse-page {
+  h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    color: @black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 58rem;
+  }
+
+  .card-use {
+    height: 2rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+
+    .btn-howuse-page {
+      background: @black;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      height: 45px;
+      color: @white;
+    }
+
+    .howuse-input {
+      border: 1px solid @black;
+      height: 45px;
+      width: 20rem;
+    }
+
+    .use-icon {
+      width: 2rem;
+      margin-left: 1rem;
+    }
+
+    .use-icon.active {
+      width: 2rem;
+      margin-left: 1rem;
+      transform: rotate(180deg);
+    }
+  }
+}
+
+
+.card-use.active {
+  background-image: url("../images/use/back.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 2rem 2rem 12rem;
+  height: auto !important;
+}
+
+section.product-page {
+  h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    color: @black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 58rem;
+  }
+
+  h5 {
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .product-btn {
+    background: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+  }
+
+  .card-product {
+    width: 20rem;
+    padding: 1rem;
+  }
+
+  .product-title {
+    height: 5.5rem;
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+  }
+
+  .product-title::after {
+    content: "...Читать дальше";
+    position: absolute;
+    top: 65px;
+    width: 50%;
+    background: @white;
+    text-align: end;
+    left: 9rem;
+    font-size: 13px;
+    height: 3rem;
+  }
+
+  .product-title:hover::after {
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+section.products-page {
+  h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    color: @black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 58rem;
+  }
+
+
+  .products-btn {
+    background: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
   }
 }
 
@@ -284,3 +395,26 @@ footer {
   color: @green - 50;
 }
 
+section.contact-page {
+  .input-form-text {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    color: black;
+    height: 2rem;
+  }
+
+  .input-form-textarea {
+    margin-bottom: 1rem;
+    color: black;
+  }
+
+  .input-form-btn {
+    background: @black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: @white;
+  }
+}
