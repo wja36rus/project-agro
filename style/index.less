@@ -249,21 +249,6 @@ section.howuse-page {
     overflow: hidden;
     margin-bottom: 2rem;
 
-    .btn-howuse-page {
-      background: @black;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      height: 45px;
-      color: @white;
-    }
-
-    .howuse-input {
-      border: 1px solid @black;
-      height: 45px;
-      width: 20rem;
-    }
-
     .use-icon {
       width: 2rem;
       margin-left: 1rem;
@@ -277,13 +262,32 @@ section.howuse-page {
   }
 }
 
-
 .card-use.active {
+  padding: 2rem;
+  height: auto !important;
+}
+
+.card-uses {
   background-image: url("../images/use/back.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   padding: 2rem 2rem 12rem;
   height: auto !important;
+
+  .btn-howuse-page {
+    background: @black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    height: 45px;
+    color: @white;
+  }
+
+  .howuse-input {
+    border: 1px solid @black;
+    height: 45px;
+    width: 20rem;
+  }
 }
 
 section.product-page {
