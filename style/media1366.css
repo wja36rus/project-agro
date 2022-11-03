@@ -1220,13 +1220,14 @@
     section.products-page h1 {
         font-style: normal;
         font-weight: 400;
-        font-size: 70px;
-        display: flex;
+        font-size: 1.5rem;
+        display: block;
         align-items: center;
         color: #000000;
         padding-top: 2rem;
         padding-bottom: 2rem;
-        padding-left: 58rem;
+        padding-left: 0;
+        text-align: center;
     }
 
     section.products-page .products-btn {
