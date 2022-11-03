@@ -12,7 +12,7 @@ main nav .item-nav {
     font-weight: 400;
     font-size: 12px;
     text-decoration: none;
-    line-height: 23px;
+    line-height: 20px;
     color: #000000;
 }
 
@@ -20,6 +20,7 @@ main nav .item-nav.active {
     font-style: normal;
     font-weight: 900;
     color: #11C10E;
+    text-decoration: underline;
 }
 
 main nav .item-nav:hover {
@@ -38,7 +39,7 @@ main section.home {
 
 main section.home .icon {
     padding-left: 39.5vw;
-    padding-top: 13vw;
+    padding-top: 14vw;
 }
 
 main section.home .icon-image {
