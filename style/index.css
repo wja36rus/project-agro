@@ -12,7 +12,7 @@ main nav .item-nav {
     font-weight: 400;
     font-size: 12px;
     text-decoration: none;
-    line-height: 27px;
+    line-height: 23px;
     color: #000000;
 }
 
@@ -39,6 +39,10 @@ main section.home {
 main section.home .icon {
     padding-left: 39.5vw;
     padding-top: 13vw;
+}
+
+main section.home .icon-image {
+    width: 7.5vw;
 }
 
 main section.home .title {
@@ -110,17 +114,17 @@ main section.about .btn-about {
 main section.preference h1 {
     font-style: normal;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 3.5vw;
     display: flex;
     align-items: center;
     color: #000000;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    padding-left: 58rem;
+    padding-left: 60vw;
 }
 
 main section.preference .card-pref {
-    width: 35rem;
+    width: 30vw;
     padding: 1rem;
     background-size: cover;
     background-position: center center;
@@ -130,7 +134,7 @@ main section.preference .card-pref {
 main section.preference .card-pref h2 {
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 2.5vw;
     color: #000000;
     padding-bottom: 5rem;
 }
@@ -138,7 +142,7 @@ main section.preference .card-pref h2 {
 main section.preference .card-pref p.text {
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 1.5vw;
     color: #000000;
     min-height: 135px;
     display: flex;
@@ -199,13 +203,13 @@ section.contact .input-form-btn {
 section.about-page h1 {
     font-style: normal;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 3.5vw;
     display: flex;
     align-items: center;
     color: #000000;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    padding-left: 58rem;
+    padding-left: 48vw;
 }
 
 section.about-page .btn-about-page {
@@ -214,23 +218,23 @@ section.about-page .btn-about-page {
 }
 
 section.about-page .about-img-right {
-    width: 35rem;
+    width: 30vw;
 }
 
 section.about-page .about-img-left {
-    width: 35rem;
+    width: 30vw;
 }
 
 section.howuse-page h1 {
     font-style: normal;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 3.5vw;
     display: flex;
     align-items: center;
     color: #000000;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    padding-left: 58rem;
+    padding-left: 47vw;
 }
 
 section.howuse-page .card-use {
@@ -281,13 +285,13 @@ section.howuse-page .card-use .use-icon.active {
 section.product-page h1 {
     font-style: normal;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 3.5vw;
     display: flex;
     align-items: center;
     color: #000000;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    padding-left: 58rem;
+    padding-left: 57vw;
 }
 
 section.product-page h5 {
@@ -355,6 +359,14 @@ section.products-page .products-btn {
     color: #FFFFFF;
 }
 
+section.contact h1 {
+    font-size: 2vw;
+}
+
+section.contact .contact-images {
+    width: 64vw;
+}
+
 footer {
     background: #1C1C1C;
     color: #FFFFFF;
@@ -402,4 +414,12 @@ section.contact-page .input-form-btn {
     font-size: 26px;
     line-height: 32px;
     color: #FFFFFF;
+}
+
+section.contact-page .contact-images {
+    width: 64vw;
+}
+
+section.contact-page h1 {
+    font-size: 2vw;
 }
