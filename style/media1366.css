@@ -1,3 +1,432 @@
 @media screen and (max-width: 1366px) {
+    body {
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
 
+    main nav {
+        margin-left: 18.8vw;
+        padding-top: 1rem;
+    }
+
+    main nav .item-nav {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        text-decoration: none;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    main nav .item-nav.active {
+        font-style: normal;
+        font-weight: 900;
+        color: #11C10E;
+    }
+
+    main nav .item-nav:hover {
+        font-style: normal;
+        font-weight: 900;
+        color: #11C10E;
+    }
+
+    main section.home {
+        background-image: url("../images/home/Group 34.jpg");
+        background-size: 100%;
+        background-position: center right;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    main section.home .icon {
+        padding-left: 39.5vw;
+        padding-top: 13vw;
+    }
+
+    main section.home .icon-image {
+        width: 7.5vw;
+    }
+
+    main section.home .title {
+        margin-left: 19vw;
+        height: 11vw;
+    }
+
+    main section.home .title h1.green {
+        font-size: 12vw;
+        font-weight: bold;
+        color: #11C10E;
+    }
+
+    main section.home .title h1.black {
+        font-size: 12vw;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    main section.home .subtitle {
+        padding-left: 19vw;
+        height: 9vw;
+    }
+
+    main section.home .subtitle .subtitle-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.1vw;
+        color: #000000;
+    }
+
+    main section.home .subtitle h1 {
+        font-size: 12vw;
+        font-weight: bold;
+        color: #000000;
+        line-height: 10rem;
+        padding-left: 34.5vw;
+    }
+
+    main section.home .btn-home {
+        padding-left: 19vw;
+    }
+
+    main section.about h1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.5vw;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 72vw;
+    }
+
+    main section.about .about-item {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    main section.about .btn-about {
+        margin: 0 auto;
+        padding: 4rem;
+    }
+
+    main section.preference h1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.5vw;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 60vw;
+    }
+
+    main section.preference .card-pref {
+        width: 30vw;
+        padding: 1rem;
+        background-size: cover;
+        background-position: center center;
+        margin: 0 auto 1rem;
+    }
+
+    main section.preference .card-pref h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vw;
+        color: #000000;
+        padding-bottom: 5rem;
+    }
+
+    main section.preference .card-pref p.text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vw;
+        color: #000000;
+        min-height: 135px;
+        display: flex;
+        align-items: self-end;
+    }
+
+    main section.preference .card-pref.red {
+        background-image: url("../images/preference/red.jpg");
+    }
+
+    main section.preference .card-pref.green {
+        background-image: url("../images/preference/green.jpg");
+    }
+
+    main section.preference .card-pref.orange {
+        background-image: url("../images/preference/orange.jpg");
+    }
+
+    main section.preference .card-pref.yellow {
+        background-image: url("../images/preference/yellow.jpg");
+    }
+
+    main section.preference .card-pref.brown {
+        background-image: url("../images/preference/brown.jpg");
+    }
+
+    main section.preference .card-pref.violet {
+        background-image: url("../images/preference/violet.jpg");
+    }
+
+    main .btn-preference {
+        margin: 0 auto;
+        padding: 4rem;
+    }
+
+    section.contact .input-form-text {
+        border: none;
+        border-bottom: 1px solid black;
+        margin-bottom: 1rem;
+        color: black;
+        height: 2rem;
+    }
+
+    section.contact .input-form-textarea {
+        margin-bottom: 1rem;
+        color: black;
+    }
+
+    section.contact .input-form-btn {
+        background: #000000;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    section.about-page h1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.5vw;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 48vw;
+    }
+
+    section.about-page .btn-about-page {
+        margin: 0 auto;
+        padding: 4rem;
+    }
+
+    section.about-page .about-img-right {
+        width: 38vw;
+    }
+
+    section.about-page .about-img-left {
+        width: 38vw;
+    }
+
+    section.howuse-page h1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.5vw;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 47vw;
+    }
+
+    section.howuse-page .card-use {
+        height: 2rem;
+        overflow: hidden;
+        margin-bottom: 2rem;
+    }
+
+    section.howuse-page .card-use .use-icon {
+        width: 2rem;
+        margin-left: 1rem;
+    }
+
+    section.howuse-page .card-use .use-icon.active {
+        width: 2rem;
+        margin-left: 1rem;
+        transform: rotate(180deg);
+    }
+
+    .card-use.active {
+        padding: 2rem;
+        height: auto !important;
+    }
+
+    .card-uses {
+        background-image: url("../images/use/back.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding: 2rem 2rem 12rem;
+        height: auto !important;
+    }
+
+    .card-uses .btn-howuse-page {
+        background: #000000;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        height: 45px;
+        color: #FFFFFF;
+    }
+
+    .card-uses .howuse-input {
+        border: 1px solid #000000;
+        height: 45px;
+        width: 20rem;
+    }
+
+    section.product-page h1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.5vw;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 57vw;
+    }
+
+    section.product-page h5 {
+        min-height: 3rem;
+        display: flex;
+        align-items: center;
+    }
+
+    section.product-page .product-btn {
+        background: #000000;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #FFFFFF;
+    }
+
+    section.product-page .card-product {
+        width: 17rem;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    section.product-page .product-title {
+        height: 5.5rem;
+        overflow: hidden;
+        position: relative;
+        font-size: 14px;
+    }
+
+    section.product-page .product-title::after {
+        content: "...Читать дальше";
+        position: absolute;
+        top: 65px;
+        width: 15rem;
+        background: #FFFFFF;
+        text-align: end;
+        right: 0;
+        font-size: 13px;
+        height: 3rem;
+    }
+
+    section.product-page .product-title:hover::after {
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    section.products-page h1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 70px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 58rem;
+    }
+
+    section.products-page .products-btn {
+        background: #000000;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #FFFFFF;
+    }
+
+    section.contact h1 {
+        font-size: 2vw;
+    }
+
+    section.contact .contact-images {
+        width: 64vw;
+    }
+
+    footer {
+        background: #1C1C1C;
+        color: #FFFFFF;
+    }
+
+    .main-btn-green {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.7vw;
+        display: block;
+        align-items: center;
+        color: #11C10E;
+        background: transparent;
+        border: none;
+        text-decoration: none;
+        width: max-content;
+    }
+
+    .main-btn-green .btn-img {
+        width: 35px;
+        margin-left: 10px;
+    }
+
+    .main-btn-green:hover {
+        color: #008f00;
+    }
+
+    section.contact-page .input-form-text {
+        border: none;
+        border-bottom: 1px solid black;
+        margin-bottom: 1rem;
+        color: black;
+        height: 2rem;
+    }
+
+    section.contact-page .input-form-textarea {
+        margin-bottom: 1rem;
+        color: black;
+    }
+
+    section.contact-page .input-form-btn {
+        background: #000000;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    section.contact-page .contact-images {
+        width: 64vw;
+    }
+
+    section.contact-page h1 {
+        font-size: 2vw;
+    }
+
+    section.about-page p {
+        font-size: 1vw;
+    }
 }
