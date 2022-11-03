@@ -1104,13 +1104,14 @@
     section.howuse-page h1 {
         font-style: normal;
         font-weight: 400;
-        font-size: 3.5vw;
-        display: flex;
+        font-size: 1.5rem;
+        display: block;
         align-items: center;
         color: #000000;
         padding-top: 2rem;
         padding-bottom: 2rem;
-        padding-left: 47vw;
+        padding-left: 0;
+        text-align: center;
     }
 
     section.howuse-page .card-use {
@@ -1242,7 +1243,7 @@
     }
 
     section.contact .contact-images {
-        width: 64vw;
+        display: none;
     }
 
     footer {
@@ -1295,11 +1296,11 @@
     }
 
     section.contact-page .contact-images {
-        width: 64vw;
+        display: none;
     }
 
     section.contact-page h1 {
-        font-size: 2vw;
+        font-size: 1.2rem;
     }
 
     section.about-page p {
