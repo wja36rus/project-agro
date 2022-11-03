@@ -902,14 +902,14 @@
     main section.home {
         background-image: url("../images/home/Group 34768.jpg");
         background-size: cover;
-        background-position: 69%;
+        background-position: 58%;
         background-repeat: no-repeat;
         height: 100vh;
     }
 
     main section.home .icon {
         padding-left: 27vw;
-        padding-top: 15vw;
+        padding-top: 10vw;
     }
 
     main section.home .icon-image {
@@ -918,7 +918,7 @@
 
     main section.home .title {
         margin: 0 auto;
-        height: 11vw;
+        height: 16vw;
         width: 70vw;
     }
 
@@ -936,13 +936,13 @@
 
     main section.home .subtitle {
         padding-left: 13vw;
-        height: 9vw;
+        height: 15vw;
     }
 
     main section.home .subtitle .subtitle-text {
         font-style: normal;
         font-weight: 400;
-        font-size: 1.1vw;
+        font-size: 12px;
         color: #000000;
     }
 
@@ -951,7 +951,7 @@
         font-weight: bold;
         color: #000000;
         line-height: 10rem;
-        padding-left: 34.5vw;
+        padding-left: 25.5vw;
     }
 
     main section.home .btn-home {
