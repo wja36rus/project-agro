@@ -157,16 +157,17 @@
     </section>
     <section class="contact">
         <div class="d-flex">
-            <form action="" class="ms-auto me-auto mt-5">
+            <form id="home-form" class="ms-auto me-auto mt-5" method="post">
                 <h1>
                     ЕСТЬ ВОПРОСЫ?<br/>
                     С РАДОСТЬЮ ОТВЕЧУ!
                 </h1>
                 <div class="d-grid">
-                    <input class="input-form-text" type="text" placeholder="Имя">
-                    <input class="input-form-text" type="text" placeholder="Телефон">
-                    <textarea class="input-form-textarea" rows="5" placeholder="Ваш вопрос"></textarea>
-                    <button class="input-form-btn">ОТПРАВИТЬ</button>
+                    <input id="form-name" class="input-form-text" type="text"  name="name" placeholder="Имя*">
+                    <input id="form-phone" class="input-form-text" type="text"  name="phone" placeholder="Телефон*">
+                    <textarea class="input-form-textarea" rows="5"  name="text" placeholder="Ваш вопрос"></textarea>
+                    <button id="home-form-success" class="input-form-btn">ОТПРАВИТЬ</button>
+                    <div class="form-error text-danger mt-2 text-center fw-bold"></div>
                 </div>
             </form>
             <img class="contact-images" src="images/form/form.jpg" alt="">
