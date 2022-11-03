@@ -112,6 +112,13 @@ main section.about .btn-about {
     padding: 4rem;
 }
 
+main section.about .about-line {
+    width: 28.5vw;
+}
+main section.about .about-middle {
+    width: 35vw;
+}
+
 main section.preference h1 {
     font-style: normal;
     font-weight: 400;
