@@ -29,6 +29,28 @@ main nav .item-nav:hover {
     color: #11C10E;
 }
 
+main .mobile_nav .item-nav {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 35px;
+    color: #000000;
+}
+
+main .mobile_nav .item-nav.active {
+    font-style: normal;
+    font-weight: 900;
+    color: #11C10E;
+    text-decoration: underline;
+}
+
+main .mobile_nav .item-nav:hover {
+    font-style: normal;
+    font-weight: 900;
+    color: #11C10E;
+}
+
 main section.home {
     background-image: url("../images/home/Group 34.jpg");
     background-size: 100%;
@@ -315,6 +337,9 @@ section.product-page .product-btn {
     font-size: 20px;
     line-height: 35px;
     color: #FFFFFF;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
 
 section.product-page .card-product {
@@ -439,4 +464,28 @@ section.about-page p {
 
 .error {
     background: #fdeaea;
+}
+
+.mobile_nav {
+    position: fixed;
+    background: white;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    transform: translate(-120%);
+    transition: .5s;
+}
+
+.mobile_nav.active {
+    position: fixed;
+    background: white;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    transform: translate(0);
+    transition: .5s;
 }
