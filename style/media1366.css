@@ -1311,15 +1311,21 @@
     main section.about .about-line {
         width: 21rem;
     }
+
     main section.about .about-middle {
         display: none !important;
     }
 }
 
 @media screen and (max-width: 425px) {
+    .no425 {
+        display: none;
+    }
+
     .open_menu {
         display: grid;
     }
+
     body {
         font-family: 'Montserrat Alternates', sans-serif;
     }
@@ -1764,6 +1770,7 @@
     main section.about .about-line {
         width: 21rem;
     }
+
     main section.about .about-middle {
         display: none !important;
     }
