@@ -1447,7 +1447,7 @@
     }
 
     main section.preference .card-pref {
-        width: 17rem;
+        width: 100%;
         padding: 1rem;
         background-size: cover;
         background-position: center center;
