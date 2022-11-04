@@ -1447,7 +1447,7 @@
     }
 
     main section.preference .card-pref {
-        width: 13rem;
+        width: 17rem;
         padding: 1rem;
         background-size: cover;
         background-position: center center;
@@ -1689,7 +1689,7 @@
     }
 
     section.contact h1 {
-        font-size: 2vw;
+        font-size: 20px;
     }
 
     section.contact .contact-images {
