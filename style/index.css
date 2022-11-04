@@ -489,3 +489,42 @@ section.about-page p {
     transform: translate(0);
     transition: .5s;
 }
+
+.burger {
+    height: 5px;
+    width: 40px;
+    background: #11c10e;
+    border-radius: 10px;
+}
+
+.open_menu {
+    display: grid;
+    height: 4rem;
+    padding: 1rem;
+    align-items: flex-end;
+}
+
+.close_menu {
+    display: grid;
+    height: 4rem;
+    padding: 1rem;
+    align-items: flex-end;
+}
+
+.open_menu:hover, .close_menu:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.rotareL {
+    transform: rotate(45deg);
+}
+
+.rotareR {
+    transform: rotate(-45deg);
+    position: absolute;
+}
+
+.open_menu {
+    display: none;
+}

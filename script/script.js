@@ -37,4 +37,17 @@ $(document).ready(function () {
             }, 1500)
         }
     })
+
+    $('.open_menu').click(function () {
+        $('.mobile_nav').addClass('active');
+    });
+
+    $('.close_menu').click(function () {
+        $('.mobile_nav').removeClass('active');
+    });
+
+    $('.item-nav').click(function () {
+        $('.mobile_nav').removeClass('active');
+    });
+
 });

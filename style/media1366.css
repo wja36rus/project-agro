@@ -1317,6 +1317,9 @@
 }
 
 @media screen and (max-width: 425px) {
+    .open_menu {
+        display: grid;
+    }
     body {
         font-family: 'Montserrat Alternates', sans-serif;
     }
